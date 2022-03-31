@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+           .cl1{
+               font-size:1.5em;
+           } 
+           #XD{
+               background-color:rgb(222, 235, 255);
+               color:rgb(63, 74, 0);
+               text-align:center;
+               border:dotted 3.6px rgb(204, 108, 108);
+               margin-left:5%;
+               margin-right:5%;
+               padding:18px;
+           }
+           #but{
+               background-color:rgb(247, 212, 223);
+               color:rgb(0, 0, 0);
+             padding:7.7px;
+           
+               font-size:15px;
+           }
+           li{
+               text-align:left;
+               margin-left:14%;
+               color:rgb(6, 6, 105);
+               font-size:115%;
+           }
+           a{
+               text-decoration:none;
+               color:rgb(88, 128, 245);
+           }
+           
+        </style>
+    </head>
+    <body>
+        <div id="XD"><h1>Serdecznie zapraszamy</h1>
+        <p class="cl1" >Na dni otwarte w <a href="https://www.wladyslaw.edu.pl/" >VIII LO </a><br>im. Władysława IV.<br><br>W programie:</p>
+        <ul>
+            <li>Spotkanie z Magdą Gessler</li>
+            <li>Ćwiczenia filipińskich sztuk walk</li>
+            <li>Pyszny poczęstunek</li>
+        </ul>
+        <br>
+        <button id="but" onclick="myf()">Zapisz się</button></div><script>
+function myf() {
+  alert("Dziękujemy za zapisanie się!");
+}
+</script>
+        
+    </body>
+</html>
